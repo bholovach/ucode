@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>X-MEN</title>
+        <meta name="description" content="X-MEN">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Handbook</h1>
+        <h2>HTML</h2>
+        <div class="grid">
+            <div>
+                <p><b>h1</b></p>
+                
+                <span>The h1 to h6 tags are used to define HTML headings</span>
+                    <br>
+                    <br>
+                    &lt;h1&gt;Title&lt;/h1&gt;
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <span><b>Title</b></span>
+            </div>
+            <div>
+                <p><b>HTML Paragraphs</b></p>
+                
+                <span>The HTML <br>&lt;p&gt; element defines a paragraph&lt;p&gt;</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                &lt;p&gt;This is a paragraph&lt;/p&gt;
+            </div>
+            <div>
+                <p><b>&lt;a&gt;</b></p>
+                <span>You can click on a link and jump to another document.&lt;/a&gt;</span>
+                <br>
+                <br>
+                &lt;a href="url">link text&lt;/a&gt;
+                <br>
+                <br>
+                <br>
+                <a href="https://www.w3schools.com/html/html_links.asp">LINK</a>
+            </div>
+            <div>
+                <p><b>HTML Documents</b></p>
+                All HTML documents must start with a document type declaration: 
+                <br>
+                <br>
+                <br>
+                <br>
+                &lt;!DOCTYPE html&gt;
+            </div>
+        </div>
+        <h2>CSS</h2>
+        <div class="grid">
+            <div>
+                <p><b>CSS Backgrounds</b></p>
+                <span>The CSS background properties are used to add background effects for elements.</span>
+                    <br>
+                    <p>.p {<br>
+                        border: 2px solid black;<br>
+    background: blue;<br>
+                        }</p>
+                    <p class="border">
+                    <br>
+            </div>
+            <div>
+                <p><b>font-size</b></p>
+                <p>specifies the font size of the item %px,rem,inherit</p>
+                <p>.text {<br>
+                    font-size: 24px;<br>
+                    }</p>
+                <p class="text">my text</p>
+            </div>
+            <div>
+                <p><b>CSS Margins</b></p>
+                <span>The CSS margin properties are used to create space around elements, outside of any defined borders.</span>
+                <p>p {<br>
+                    margin-top: 100px;<br>
+                    margin-bottom: 100px;<br>
+                    margin-right: 150px;<br>
+                    margin-left: 80px;
+                    <br>}</p>
+            </div>
+            <div>
+                <p><b>Text Color</b></p> 
+                <span>The color property is used to set the color of the text. The color is specified by:</span>
+                <p>.color {<br>
+                    background-color: red;<br>
+<br>
+<span class="color">COLOR </span>
+            </div>
+        </div>
+            <h2>PROTOCOLS</h2>
+            <div class="grid2">
+                <div>
+                    <p><b>Методы HTTP запроса</b></p>
+                    <p></p>
+                        <br>
+                        Метод GET <br>запрашивает представление ресурса. Запросы с использованием этого метода могут только извлекать данные.<br>
+                        <br>
+                        HEAD <br>запрашивает ресурс так же, как и метод GET, но без тела ответа.<br>
+                        <br>
+                        POST <br>используется для отправки сущностей к определённому ресурсу. Часто вызывает изменение состояния или какие-то побочные эффекты на сервере.<br>
+                        PUT заменяет все текущие представления ресурса данными запроса.<br>
+                        <br>
+                        DELETE <br>удаляет указанный ресурс.<br>
+                        <br>CONNECT
+                        CONNECT <br>устанавливает "туннель" к серверу, определённому по ресурсу.<br>
+                        <br>OPTIONS
+                        OPTIONS <br>используется для описания параметров соединения с ресурсом.<br>
+                        <br>TRACE
+                        TRACE <br>выполняет вызов возвращаемого тестового сообщения с ресурса.<br>
+                        <br>PATCH
+                        PATCH <br>используется для частичного изменения ресурса.<p>
+                        
+                </div>
+                <div>
+                    <p><b>HTTP status code</b></p>
+                    <p>
+                        All HTTP response status codes are separated into five classes or categories. The first digit of the status code defines the class of response, while the last two digits do not have any classifying or categorization role. There are five classes defined by the standard<br>
+                        <br>-1xx informational response – the request was received, continuing process<br>
+                        <br>
+                        -2xx successful – the request was successfully received, understood, and accepted<br>
+                        <br>
+                        -3xx redirection – further action needs to be taken in order to complete the request<br>
+                        <br>
+                        -4xx client error – the request contains bad syntax or cannot be fulfilled<br>
+                        <br>
+                        -5xx server error – the server failed to fulfil an apparently valid request</p>
+                </div>
+                <div>
+                    <p><b>DNS list by types</b></p>
+                    <span>The CSS margin properties are used to create space around elements, outside of any defined borders.</span>
+                    <p><br>Commonly used record types<br>
+                        <br>A (Host address)<br>
+                        AAAA (IPv6 host address)<br>
+                        ALIAS (Auto resolved alias)<br>
+                        CNAME (Canonical name for an alias)<br>
+                        MX (Mail eXchange)<br>
+                        NS (Name Server)<br>
+                        PTR (Pointer)<br>
+                        SOA (Start Of Authority)<br>
+                        SRV (location of service)<br>
+                        TXT (Descriptive text)<br>
+                        <br>
+                        <br>Records types used for DNSSEC<br>
+                        <br>DNSKEY (DNSSEC public key)<br>
+                        DS (Delegation Signer)<br>
+                        NSEC (Next Secure)<br>
+                        NSEC3 (Next Secure v. 3)<br>
+                        NSEC3PARAM (NSEC3 Parameters)<br>
+                        RRSIG (RRset Signature)<br>
+                        <br>Less commonly used record types:<br>
+                        <br>AFSDB (AFS Data Base location)<br>
+                            ATMA (Asynchronous Transfer Mode address)<br>
+                            CAA (Certification Authority Authorization)<br>
+                            CERT (Certificate / CRL)<br>
+                            DHCID (DHCP Information)<br>
+                            DNAME (Non-Terminal DNS Name Redirection)<br>
+                            HINFO (Host information)<br>
+                            ISDN (ISDN address)<br>
+                            LOC (Location information)<br>
+                            MB, MG, MINFO, MR (mailbox records)<br>
+                            NAPTR (Naming Authority Pointer)<br>
+                            NSAP (NSAP address)<br>
+                            RP (Responsible person)<br>
+                            RT (Route through)<br>
+                            TLSA (Transport Layer Security Authentication)<br>
+                            X25 (X.25 PSDN address)v
+                </div>
+                <div>
+                    <p><b>Identifying google's IP</b></p> 
+                    <span>To identify google.com IP,follow the next steps:<br>
+                        1. Open Terminal<br>
+                        <br>2.paste and run the command nslookup google.com<br>
+                        <br>As result, you will receive "name" and "adress":<br>
+                        <br>Name:google.com.ua <br>
+                        <br>Adress: 216.58.215.99<br>
+                        <br>Repeat steaps 1 and 2 identify google.com.ua IP<br>
+                    </span>
+                    
+                </div>
+            </div>
+    </body>
+</html>

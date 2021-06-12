@@ -1,0 +1,10 @@
+#The{
+    max-height: 150px;
+}
+.name{
+    max-height: 100px;
+}
+#The:hover ~ table tbody tr:nth-child(2n+1) td:nth-child(2n+1),
+#The:hover ~ table tbody tr:nth-child(2n) td:nth-child(2n){
+    opacity: 0%;
+}

@@ -1,0 +1,46 @@
+body {
+    background: rgb(214, 188, 73);
+}
+h1,h2{
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(200px, auto);
+    padding: 5px;
+}
+.grid>div {
+    background: rgb(226, 226, 230);
+    padding: 5px;
+    font-size: 12px;
+}
+.border {
+    border: 2px solid black;
+    background: blue;
+}
+.border {
+    border: 2px solid powderblue;
+
+}
+.color {
+    color: red;
+}
+.text {
+    font-size: 20px;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(200px, auto);
+    padding: 5px;
+}
+.grid2>div {
+    background: rgb(226, 226, 230);
+    padding: 5px;
+    font-size: 12px;
+}
