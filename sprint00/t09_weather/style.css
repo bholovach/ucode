@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Lato';
+}
+
+.card {
+    width: 150px;
+    height: 220px;
+    margin: 10px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.head {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+}
+
+.foot {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}

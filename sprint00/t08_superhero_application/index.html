@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Superhero application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Superhero Form</h1>
+    <form>
+        <fieldset>
+            <legend>About the Superhero</legend>
+            <label for="realname">Real Name</label>
+            <input type="text" name="RealName" placeholder="Superhero real name" tabindex="1" value="" id="realname"
+                autofocus>
+            <label for="alias">Superhero Name</label>
+            <input type="text" name="Alias" placeholder="Superhero alias" tabindex="2" value="" id="alias">
+            <label for="age">Age</label>
+            <input name="Age" tabindex="3" type="number" value="" id="age" min="1" max="999" step="1">
+            <p>
+                <label for="about">About</label>
+                <textarea placeholder="information about the superhero, max 500 symbols" tabindex="4" name="About"
+                    id="about" maxlength="500" rows="5" cols="70"></textarea>
+            </p>
+            <label for="photo">Photo:</label>
+            <input type="file" name="Photo" tabindex="5" id="photo">
+        </fieldset>
+        <fieldset>
+            <legend>Powers</legend>
+            <input type="checkbox" name="Telekinesis" tabindex="6" value="Telekinesis" id="telekinesis">
+            <label for="telekinesis">Telekinesis</label>
+            <input type="checkbox" name="Super strenght or speed" tabindex="7" value="Super strenght or speed"
+                id="super">
+            <label for="super">Super strenght or speed</label>
+            <input type="checkbox" name="Shapeshifting" tabindex="8" value="Shapeshifting" id="shapeshifting">
+            <label for="shapeshifting">Shapeshifting</label>
+            <input type="checkbox" name="Flight" tabindex="9" value="flight" id="flight">
+            <label for="flight">Flight</label>
+            <input type="checkbox" name="Elemental control" tabindex="10" value="Elemental control" id="elemcontrol">
+            <label for="elemcontrol">Elemental control</label>
+            <input type="checkbox" name="Other" tabindex="11" value="Other" id="other">
+            <label for="other">Other</label>
+            <label for="levcontrol">Level of control:</label>
+            <input type="range" name="Level of control" tabindex="12" id="levcontrol" min="0" max="10" step="1"
+                value="1">
+
+        </fieldset>
+        <fieldset>
+            <legend>Origin of Powers</legend>
+            <input type="radio" name="origin" tabindex="13" value="yes" id="unknown">
+            <label for="unknown">Unknown</label>
+            <input type="radio" name="origin" tabindex="13" value="yes" id="accident">
+            <label for="accident">Freak lab accident</label>
+            <input type="radio" name="origin" tabindex="13" value="yes" id="chosen">
+            <label for="chosen">Chosen by an ancient wise being</label>
+            <input type="radio" name="origin" tabindex="13" value="yes" id="nothum">
+            <label for="nothum">The superhero is not human</label>
+            <input type="radio" name="origin" tabindex="13" value="yes" id="other1">
+            <label for="other1">Other</label>
+        </fieldset>
+        <p>
+            <button type="reset">Clear</button>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+.box {
+    margin-top: 10em;
+}
+.box1{
+    margin-left: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+}
+.box2{
+    margin-left: 10em;
+    width: 500px;
+    height: 220px;
+    padding: 15px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 2.5px;
+}
+.box3{
+    margin-left: 10em;
+    width: 500px;
+    height: 160x;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(221, 221, 221);
+}
+.notes-area{
+    width: 450px;
+    height: 100px;
+    background-color: white;
+    border-radius: 2.5px;
+}
+button{
+    height: 25px;
+    padding: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+}
+button:first-child{
+    background: turquoise;
+}
+button:first-child:hover{
+    background: turquoise linear-gradient(to bottom, #01e232 5%, turquoise 100%);
+}
+textarea{
+    border-radius: 5px;
+    border-color:  green;
+}

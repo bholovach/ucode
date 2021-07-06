@@ -1,0 +1,23 @@
+h1 {
+    font-size: 40px;
+}
+.japan {
+    background:#fff;
+    position: relative; 
+    height: 300px;
+    border: 2px solid rgb(172, 169, 169);
+    width: 500px;
+    font-weight: bold;
+    font-size: 200px;
+}
+.japan::before {
+    content: "";
+    width:160px;
+    height:160px;
+    background:#c41717;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%; 
+}

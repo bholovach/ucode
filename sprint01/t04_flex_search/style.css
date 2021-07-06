@@ -1,0 +1,19 @@
+input {
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgb(90, 88, 88);
+}
+.input-form {
+    display: flex;
+    width: 100%;
+    
+}
+input::placeholder {
+    padding: 10px;
+    
+}
+button {
+    width: 100px;
+
+}

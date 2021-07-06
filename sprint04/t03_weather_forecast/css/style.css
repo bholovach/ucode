@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 200px;
+    height: 230px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: rgba(12, 115, 184, 0.555);
+}
+.date{
+    margin: 10px;
+    text-align: center;
+}
+.deg{
+    margin: 5px;
+}
+.clouds{
+    margin: 5px;
+}

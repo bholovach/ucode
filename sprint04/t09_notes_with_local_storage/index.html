@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes with local storage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="box1">
+        <button class="add-button" onclick="add()">Add to storage</button>
+        <button class="clear-button" onclick="clearNote()">Clear storage</button>
+    </div>
+    <div class="box2">
+        <p>Text input:</p>
+        <textarea name="name" id="text" cols="55" rows="10"></textarea>
+    </div>
+    <div class="box3">
+       <p>Notes archive:</p>
+       <textarea class="notes-area" name="name" id="text" cols="55" rows="5" readonly></textarea>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

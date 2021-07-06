@@ -1,0 +1,22 @@
+body{
+    padding: 10px;
+    padding-right: 50px;
+  }
+    .ball {
+      position:relative;
+      width: 50px;
+      height: 50px;
+      background: #46cf4d;
+      border-radius: 100%;
+      animation: bounce 2.5s linear infinite, moveLeft 5s linear infinite;
+      animation-direction: alternate;
+    }
+    .ball:hover{
+      background:red;
+     transition-duration: 2s;
+    }
+    @keyframes moveLeft {
+      from {left: 0;}
+      to   {left:100%;}
+    }
+   
